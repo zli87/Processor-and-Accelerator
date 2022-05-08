@@ -1,6 +1,6 @@
 <p align="center", style="font-size:140%;"> <b>NC State University<br><br>
 Department of Electrical and Computer Engineering
-<br><br>ECE 564: ASIC and FPGA Design with Verilog Fall 2021
+<br><br>ASIC and FPGA Design with Verilog Fall 2021
 <br><br>Project: Binary Artificial Neural Network
 <br><br><br><br>by <br><br><br><br>Zong-Ru Li<br><br><br><br><br>
 </b></p>
