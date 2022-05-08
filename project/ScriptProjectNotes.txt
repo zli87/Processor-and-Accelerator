@@ -1,0 +1,19 @@
+Two scripts are provided to run in order.
+
+You might need to, or choose to, modify the scripts or how you use DC as follows:
+
+1. Change modname to the name of the top Verilog module in your design - see the beginning of script 1
+
+2. Uncomment ungroup -flatten -all if you are having hiearachy problems
+
+3. If you want to implement pipeline retiming, see the comments before compile_ultra in script 1
+
+4. If you want to squeeze down the clock period, look at the instructions in HW 3.  Do those steps at the end of script 1.
+
+5. Problems reported after the read command in script 1 generally need to be fixed, including LINT warnings.
+
+6. Problems reported by check_design BEFORE the compile_ultra (script 1) can often be ignored, but fix anything obvious
+
+7. Problems reported by check_design AFTER the compile_ultra (script 2) can generally NOT be ignored
+
+

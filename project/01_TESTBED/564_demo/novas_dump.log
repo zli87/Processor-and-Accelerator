@@ -1,0 +1,204 @@
+Unpacked struct dumping is enabled.
+ModelSim for Questa-64 2020.4_1 2020.11
+Linux 3.10.0-1160.45.1.el7.x86_64 #1 SMP Fri Sep 24 10:17:16 UTC 2021 x86_64
+CPU cores: 32
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1024
+memorylocked	64 kbytes
+maxproc			4096
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+REMOTEHOST=10.136.5.3
+SYNOPSYS_LC_ROOT=/afs/eos.ncsu.edu/software/synopsys2019/lc
+MANPATH=/afs/eos.ncsu.edu/software/anaconda3/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man
+TMIARCH=_64
+XDG_SESSION_ID=257
+SYNOPSYS_TMAX=/afs/eos.ncsu.edu/software/synopsys2019/tx
+SELINUX_ROLE_REQUESTED=
+NOVAS_HOME=/mnt/apps/public/COE/synopsys_apps/verdi_vr-2020_12-SP2-1/
+HOST=grendel32.ece.ncsu.edu
+XLIB_NO_SHM=1
+TERM=xterm
+SHELL=/bin/sh
+LMOD_ROOT=/usr/share/lmod
+ATRENTA_LICENSE_FILE=27000@ece-lic-35.ece.ncsu.edu
+MODULEPATH_ROOT=/
+SSH_CLIENT=10.136.5.3 54034 22
+STROOT=/afs/eos.ncsu.edu/software/synopsys2019/sentaurus
+SNPS_BROWSER=/usr/bin/firefox
+LMOD_PACKAGE_PATH=/mnt/apps/public/COE/ece
+SELINUX_USE_CURRENT_RANGE=
+CDS_LOAD_ENV=CSF
+url=https://www.wolftech.ncsu.edu/linux/add_log.php?username=zli87&command=questa2020.4&hostname=grendel32.ece.ncsu.edu&hostArch=x86_64&hostOS=Red-Hat-Enterprise-Linux-Server-release-7.9-Maipo
+LMOD_PKG=/usr/share/lmod/lmod
+HSP_GCC_VERSION=6.2.0
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+LMOD_VERSION=8.2.7
+SSH_TTY=/dev/pts/7
+TARG_TITLE_BAR_PAREN= 
+SPAPI_AHDL_INCLUDE=/afs/eos/dist/synopsys_apps/hspice_vO-2018.09-SP2/hspice/include
+QT_GRAPHICSSYSTEM_CHECKED=1
+GROUP=NCSU
+HSP_HOME=/afs/eos/dist/synopsys_apps/hspice_vO-2018.09-SP2/hspice
+USER=zli87
+LMOD_sys=Linux
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+LD_LIBRARY_PATH=/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64/linux_x86_64:/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64/linux::/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64:/afs/eos.ncsu.edu/dist/questasim2020_4/gcc-7.4.0-linux_x86_64/lib64:/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64::/mnt/apps/public/COE/synopsys_apps/verdi_vr-2020_12-SP2-1//share/PLI/lib/LINUX64:/mnt/apps/public/COE/synopsys_apps/verdi_vr-2020_12-SP2-1//share/PLI/IUS/LINUX64/boot:/mnt/apps/public/COE/synopsys_apps/verdi_vr-2020_12-SP2-1//share/PLI/lib/LINUX64:/mnt/apps/public/COE/synopsys_apps/verdi_vr-2020_12-SP2-1//share/PLI/IUS/LINUX64/boot
+LD_LIBRARY_PATH_64=/mnt/apps/public/COE/synopsys_apps/verdi_vr-2020_12-SP2-1//share/PLI/MODELSIM/LINUX64
+hostOS=Red-Hat-Enterprise-Linux-Server-release-7.9-Maipo
+HOSTTYPE=x86_64-linux
+installdir=/afs/eos/dist/synopsys_apps/hspice_vO-2018.09-SP2/hspice
+SNPSLMD_LICENSE_FILE=27000@ece-lic-35.ece.ncsu.edu
+CMIARCH=_64
+LMOD_PREPEND_BLOCK=normal
+MAIL=/var/spool/mail/zli87
+PATH=/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64:/afs/eos.ncsu.edu/software/anaconda3/bin:/afs/eos/dist/cadence_apps/XCELIUM2009/tools/bin:/afs/eos/dist/synopsys_apps/hspice_vO-2018.09-SP2/hspice/bin:/afs/eos/dist/synopsys_apps/hspice_vO-2018.09-SP2/hspice/GNU/linux64/gcc/bin:/afs/eos/dist/synopsys_apps/hspice_vO-2018.09-SP2/hspice/linux64:/usr/bin:/usr/ucb/bin:/afs/eos.ncsu.edu/software/synopsys2019/finesim/bin:/afs/eos.ncsu.edu/software/synopsys2019/customcompiler/bin:/afs/eos.ncsu.edu/software/synopsys2019/siliconsmart/bin:/afs/eos.ncsu.edu/software/synopsys2019/lc/bin:/afs/eos.ncsu.edu/software/synopsys2019/starrc/bin:/afs/eos.ncsu.edu/software/synopsys2019/icc2/bin:/afs/eos.ncsu.edu/software/synopsys2019/icc/bin:/afs/eos.ncsu.edu/software/synopsys2019/cscope64/ai_bin:/afs/eos.ncsu.edu/software/synopsys2019/vcs_mx/bin:/afs/eos.ncsu.edu/software/synopsys2019/hspice/hspice/bin:/afs/eos.ncsu.edu/software/synopsys2019/core/bin:/afs/eos.ncsu.edu/software/synopsys2019/pts/bin:/afs/eos.ncsu.edu/software/synopsys2019/pr/bin:/afs/eos.ncsu.edu/software/synopsys2019/tx/bin:/afs/eos.ncsu.edu/software/synopsys2019/ts4/bin:/afs/eos.ncsu.edu/software/synopsys2019/medici/bin:/afs/eos.ncsu.edu/software/synopsys2019/sentaurus/bin:/afs/eos.ncsu.edu/software/synopsys2019/syn/bin:/afs/eos.ncsu.edu/software/synopsys2019/embedit/bin:/afs/eos.ncsu.edu/software/synopsys2019/raphael/bin:/afs/eos.ncsu.edu/software/synopsys2019/identify/bin:/afs/eos.ncsu.edu/software/synopsys2019/fpga/bin:/afs/eos.ncsu.edu/software/synopsys2019/spyglass/SPYGLASS_HOME/bin:/afs/eos.ncsu.edu/software/synopsys2019/pwr/bin:/afs/eos.ncsu.edu/software/synopsys2019/fm/bin:/afs/eos.ncsu.edu/software/questa2020.4/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/opt/puppetlabs/bin:/opt/puppetlabs/bin:/opt/puppetlabs/bin
+XARCH=linux64
+LMOD_SETTARG_CMD=:
+PWD=/afs/unity.ncsu.edu/users/z/zli87/ece-564-Projects/project/01_TESTBED/564_demo
+VCS_HOME=/afs/eos.ncsu.edu/software/synopsys2019/vcs_mx
+LANG=C
+MODULEPATH=///mnt/apps/modules/ece/other:///mnt/apps/modules/ece/cadence:///mnt/apps/modules/ece/mentor:///mnt/apps/modules/ece/synopsys:///mnt/apps/modules/coe:///mnt/apps/modules/ncsu:/usr/share/lmod/lmod/modulefiles/Core
+MODEL_TECH=/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64
+SELINUX_LEVEL_REQUESTED=
+openafsclient=true
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+SYNOPSYS=/afs/eos.ncsu.edu/software/synopsys2019/syn
+LMOD_AVAIL_STYLE=grouped:system
+KRB5CCNAME=KEYRING:persistent:352761
+HSP_GCC=/afs/eos/dist/synopsys_apps/hspice_vO-2018.09-SP2/hspice/GNU/linux64/gcc/bin/gcc -m64 
+SHLVL=4
+HOME=/afs/unity.ncsu.edu/users/z/zli87
+OSTYPE=linux
+shared_dir=/afs/eos.ncsu.edu/service/ece/share
+CDS_AUTO_64BIT=ALL
+SNPS_64=1
+VENDOR=unknown
+SNPS_PLATFORM=linux64
+HSP_SIGMA_AMP=/afs/eos/dist/synopsys_apps/hspice_vO-2018.09-SP2/hspice/linux64/python/Omega/Omega
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+MACHTYPE=x86_64
+addCmd=questa2020.4
+LMOD_arch=x86_64
+LOGNAME=zli87
+SPYGLASS_HOME=/afs/eos.ncsu.edu/software/synopsys2019/spyglass/SPYGLASS_HOME
+MGLS_LICENSE_FILE=/afs/eos.ncsu.edu/software/questa2020.4/licenses/license.dat
+QTLIB=/usr/lib64/qt-3.3/lib
+XDG_DATA_DIRS=/afs/unity.ncsu.edu/users/z/zli87/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+SSH_CONNECTION=10.136.5.3 54034 152.14.98.81 22
+CDS_LIC_FILE=2101@ece-lic-11.ece.ncsu.edu
+mraarch=linux_64
+MODULESHOME=/usr/share/lmod/lmod
+LMOD_SETTARG_FULL_SUPPORT=no
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+ARCH=x86_64
+CDPL_HOME=/afs/eos/dist/synopsys_apps/hspice_vO-2018.09-SP2/hspice/cdpl
+LMOD_FULL_SETTARG_SUPPORT=no
+LD_LIBRARY_PATH_32=/mnt/apps/public/COE/synopsys_apps/verdi_vr-2020_12-SP2-1//share/PLI/MODELSIM/LINUX
+XDG_RUNTIME_DIR=/run/user/352761
+DISPLAY=localhost:10.0
+STDB=/afs/unity.ncsu.edu/users/z/zli87/.synopsys
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+MODELSIM_HOME=/afs/eos.ncsu.edu/software/questa2020.4
+LMOD_COLORIZE=yes
+QUESTA_HOME=/afs/eos.ncsu.edu/software/questa2020.4
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+MODEL_TECH_TCL=/mtitcl
+MODEL_TECH_TCL_ARCHIVE=/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64/../tcl.fs
+TROFS_LIBRARY=/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64/trofs0.4.8
+TCL_LIBRARY=/mtitcl/tcl8.6
+TK_LIBRARY=/mtitcl/tk8.6
+VSIM_LIBRARY=/mtitcl/vsim
+ITCL_LIBRARY=/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64/itcl3.4
+ITK_LIBRARY=/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64/itk3.4
+TK_TABLE_LIBRARY=/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64/Tktable2.10
+MODELSIM=/afs/eos.ncsu.edu/software/questa2020.4/modelsim.ini
+VISUALIZERROOT=/afs/eos.ncsu.edu/dist/questasim2020_4/linux_x86_64/Visualizer/bin/..
+Runtime command line arguments:
+argv[0]=LoadDesign
+argv[1]=-c
+argv[2]=tb_top
+argv[3]=-pli
+argv[4]=/mnt/apps/public/COE/synopsys_apps/verdi_vr-2020_12-SP2-1/share/PLI/MODELSIM/LINUX64/novas_fli.so
+argv[5]=-64
+argv[6]=-do
+argv[7]=add wave -r *; log -r *; run -all;
+137 profile - 100
+          CPU/Mem usage: 0.040 sys,  0.150 user,  325.80M sys,  0.00M vm
+138 VC callback profile - scalar:0 vector:0
+139 Tue Nov  2 13:06:36 2021
+140 pliAppInit
+141 FSDB_GATE is disabled.
+142 Enable Parallel Dumping.
+143 pliAppMiscSet: New Sim Round
+144 pliEntryInit
+145 LIBSSCORE=found /mnt/apps/public/COE/synopsys_apps/verdi_vr-2020_12-SP2-1//share/PLI/lib/LINUX64/libsscore_mti2019.so through $LD_LIBRARY_PATH setting.
+146 argv[0]: MyDesign.fsdb
+147 argv[0]: 0
+148 argv[1]: +mda
+149 FSDB Dumper for ModelSim, Release Verdi_R-2020.12-SP2-1, Linux x86_64/64bit, 07/19/2021
+150 (C) 1996 - 2021 by Synopsys, Inc.
+151 ***********************************************************************
+152 *  WARNING -                                                          *
+153 *  The simulator version is newer than the supported FSDB Writer.     *
+154 ***********************************************************************
+155 sps_call_fsdbDumpfile at 0 : testbench_564.sv(227)
+156 argv[0]: MyDesign.fsdb
+157 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+158 *Verdi* : Create FSDB file 'MyDesign.fsdb'
+159 sps_call_fsdbDumpvars at 0 : testbench_564.sv(228)
+160 argv[0]: 0
+161 argv[1]: +mda
+162 *Verdi* : Begin traversing the scopes, layer (0).
+163 *Verdi* : Enable +mda dumping.
+164 *Verdi* : End of traversing.
+165 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.060 sys,  0.160 user,  483.62M sys,  0.00M vm
+                   incr: 0.010 sys,  0.000 user,  2.92M sys,  0.00M vm
+                   accu: 0.010 sys,  0.000 user,  2.92M sys,  0.00M vm
+              accu incr: 0.010 sys,  0.000 user,  2.92M sys,  0.00M vm
+
+          Count usage: 219 var,  212 idcode,  8 callback
+                 incr: 219 var,  212 idcode,  8 callback
+                 accu: 219 var,  212 idcode,  8 callback
+            accu incr: 219 var,  212 idcode,  8 callback
+166 VC callback profile - scalar:0 vector:0
+167 Tue Nov  2 13:06:36 2021
+168 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.060 sys,  0.160 user,  484.68M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.010 sys,  0.000 user,  3.97M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 219 var,  212 idcode,  8 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 219 var,  212 idcode,  8 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+169 VC callback profile - scalar:55 vector:149
+170 Tue Nov  2 13:06:36 2021
+171 End of simulation at 1915
+172 VC callback profile - scalar:3123 vector:6999
+173 Tue Nov  2 13:06:36 2021
+174 Begin FSDB profile info:
+175 FSDB Writer : bc1(3123) bcn(7017) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.009077) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+176 End FSDB profile info
+177 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:1
+178                        ProduceTime:0.125546217 ConsumerTime:0.000000000 Buffer:64MB
+179 SimExit
+180 Sim process exit

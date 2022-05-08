@@ -1,0 +1,16 @@
+# rename as .synopsys_dc.setup 
+
+# Search Path variables  
+set path1 "/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/nangate/NangateOpenCellLibrary_PDKv1_2_v2008_10/liberty/520"
+set search_path "$path1 $search_path";
+
+set search_path [concat  $search_path [list [format "%s%s"  $synopsys_root "/libraries/syn"]]]
+set search_path [concat  $search_path [list "." [format "%s%s"  $synopsys_root "/dw/sim_ver"]]]
+
+# Library Variables 
+set synthetic_library [list dw_foundation.sldb]
+set target_library NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm.db
+set link_library   [concat  $target_library $synthetic_library]
+
+set verilogout_no_tri "true"
+

@@ -1,0 +1,2262 @@
+ 
+****************************************
+Report : cell
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Sat Oct 30 19:35:21 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+R_0_clk_r_REG212_S1       DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+R_1_clk_r_REG212_S1       DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+R_2_clk_r_REG35_S8        DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+R_3_clk_r_REG35_S8        DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+R_5_clk_r_REG177_S2       DFF_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+R_6_clk_r_REG177_S2       DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+R_8_clk_r_REG214_S1       DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+R_9_clk_r_REG214_S1       DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+R_10                      DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+U452                      INV_X4          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U453                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U454                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U455                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U456                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U457                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U458                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U459                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U460                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U461                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U462                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U463                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U464                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U465                      AND3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U466                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U467                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U468                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U469                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U470                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U471                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U472                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U473                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U474                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U475                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U476                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U477                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U478                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U479                      CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U480                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U481                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U482                      OR2_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U483                      OR2_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U484                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U485                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U486                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U487                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U488                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U489                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U490                      OR2_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U491                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U492                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U493                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U494                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U495                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U496                      NAND2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U497                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U498                      OAI211_X2       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U499                      OAI211_X2       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U500                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U501                      INV_X4          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U502                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U503                      OAI211_X2       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U504                      AND3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U505                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U506                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U507                      AND3_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U508                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U509                      NAND2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U510                      AND2_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U511                      CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U512                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U513                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U514                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U515                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U516                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U517                      CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U518                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U519                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U520                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U521                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U522                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U523                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U524                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U525                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U526                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U527                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U528                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U529                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U530                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U531                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U532                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U547                      NAND2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U548                      OR2_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U549                      NAND3_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U550                      NAND3_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U551                      NAND2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U552                      NAND3_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U553                      NAND3_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U554                      NAND2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U555                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U556                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U557                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U558                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U559                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U560                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U561                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U562                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U563                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U564                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U565                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U566                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U567                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U568                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U569                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U570                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U571                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U572                      NAND2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U573                      OR2_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U574                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U575                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U576                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U577                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U578                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U579                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U580                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U581                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U582                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U583                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U584                      OR2_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U585                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U586                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U587                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U588                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U589                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U590                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U591                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U592                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U593                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U594                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U595                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U596                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U597                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U598                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U599                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U600                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U601                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U602                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U603                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U604                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U605                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U606                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U607                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U608                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U609                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U610                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U611                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U612                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U613                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U614                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U615                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U616                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U617                      AND3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U618                      AND3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U619                      AND3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U620                      AND3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U621                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U622                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U623                      OR3_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U624                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U625                      OR3_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U626                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U627                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U628                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U629                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U630                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U631                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U632                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U633                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U634                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U635                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U636                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U637                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U638                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U639                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U640                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U641                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U642                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U643                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U644                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U645                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U646                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U647                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U648                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U649                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U650                      OR2_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U651                      AND4_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U652                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U653                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U654                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U655                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U656                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U657                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U658                      NOR2_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U659                      NOR2_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U660                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U661                      INV_X16         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U662                      XNOR2_X2        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U663                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U664                      INV_X2          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U665                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U666                      NOR3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U667                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U668                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U669                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U670                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U671                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U672                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U673                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U674                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U675                      NOR3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U676                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U677                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U678                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U679                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U680                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U681                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U682                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U683                      NOR2_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U684                      NOR2_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U685                      NOR3_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U686                      NOR2_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U687                      NOR2_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U688                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U689                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U690                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U691                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U692                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U693                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U694                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U695                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U696                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U697                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U698                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U699                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U700                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U701                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U702                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U703                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U704                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U705                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U706                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U707                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U708                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U709                      CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U710                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U711                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U712                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U713                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U714                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U715                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U716                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U717                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U718                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U719                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U720                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U721                      CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U722                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U723                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U724                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U725                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U726                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U727                      OR2_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U728                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U729                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U730                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U731                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U732                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U733                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U734                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U735                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U736                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U737                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U738                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U739                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U740                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U741                      AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U742                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U743                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U744                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U745                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U746                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U747                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U748                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U749                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U750                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U751                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U752                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U753                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U754                      CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U755                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U756                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U757                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U758                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U759                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U760                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U761                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U762                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U763                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U764                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U765                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U766                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U767                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U768                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U769                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U770                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U771                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U772                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U773                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U774                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U775                      CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U776                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U777                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U778                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U779                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U780                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U781                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U782                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U783                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U784                      AND2_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U785                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U786                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U787                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U788                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U789                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U790                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U791                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U792                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U793                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U794                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U795                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U796                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U797                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U798                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U799                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U800                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U801                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U802                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U803                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U804                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U805                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U806                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U807                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U808                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U809                      CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U810                      CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U811                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U812                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U813                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U814                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U815                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U816                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U817                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U818                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U819                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U820                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U821                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U822                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U823                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U824                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U825                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U826                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U827                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U828                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U829                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U830                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U831                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U832                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U833                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U834                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U835                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U836                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U837                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U838                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U839                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U840                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U841                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U842                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U843                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U844                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U845                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U846                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U847                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U848                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U849                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U850                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U851                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U852                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U853                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U854                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U855                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U856                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U857                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U858                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U859                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U860                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U861                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U862                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U863                      CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U864                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U865                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U866                      CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U867                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U868                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U869                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U870                      AOI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U871                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U872                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U873                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U874                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U875                      AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U876                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U877                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U878                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U879                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U880                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U881                      INV_X4          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U882                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U883                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U884                      AOI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U885                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U886                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U887                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U888                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U889                      AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U890                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U891                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U892                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U893                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U894                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U895                      INV_X4          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U896                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U897                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U898                      AOI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U899                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U900                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U901                      AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U902                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U903                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U904                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U905                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U906                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U907                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U908                      AOI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U909                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U910                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U911                      AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U912                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U913                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U914                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U915                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U916                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U917                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U918                      AOI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U919                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U920                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U921                      AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U922                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U923                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U924                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U925                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U926                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U927                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U928                      AOI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U929                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U930                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U931                      AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U932                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U933                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U934                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U935                      NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U936                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U937                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U938                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U939                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U940                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U941                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U942                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U943                      AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U944                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U945                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U946                      AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U947                      INV_X4          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U948                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U949                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U950                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U951                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U952                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U953                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U954                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U955                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U956                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U957                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U958                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U959                      AOI22_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U960                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U961                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U962                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U963                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U964                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U965                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U966                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U967                      AOI22_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U968                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U969                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U970                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U971                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U972                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U973                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U974                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U975                      AOI22_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U976                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U977                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U978                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U979                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U980                      XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U981                      OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U982                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U983                      AOI22_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U984                      INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U985                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U986                      AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U987                      OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U988                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U989                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U990                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U991                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U992                      AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U993                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U994                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U995                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U996                      NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U997                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U998                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U999                      NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1000                     MUX2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.8620  
+U1001                     AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1002                     INV_X4          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U1003                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1004                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1005                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1006                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1007                     OAI22_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1008                     INV_X4          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U1009                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1010                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1011                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1012                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1013                     OAI22_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1014                     INV_X4          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U1015                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1016                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1017                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1018                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1019                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1020                     CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1021                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1022                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1023                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1024                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1025                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1026                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1027                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1028                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1029                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1030                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1031                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1032                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1033                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1034                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1035                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1036                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1037                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1038                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1039                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1040                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1041                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1042                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1043                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1044                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1045                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1046                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1047                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1048                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1049                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1050                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1051                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1052                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1053                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1054                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1055                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1056                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1057                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1058                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1059                     OAI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1060                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1061                     OAI22_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1062                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1063                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1064                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1065                     CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1066                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1067                     MUX2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.8620  
+U1068                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1069                     NOR3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1070                     CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1071                     AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1072                     NOR3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1073                     CLKBUF_X3       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1074                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1075                     OAI22_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1076                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1077                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1078                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1079                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1080                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1081                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1082                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1083                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1084                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1085                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1086                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1087                     MUX2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.8620  
+U1088                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1089                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1090                     MUX2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.8620  
+U1091                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1092                     INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U1093                     AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1094                     NAND4_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1095                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1096                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1097                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1098                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1099                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1100                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1101                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1102                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1103                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1104                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1105                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1106                     MUX2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.8620  
+U1107                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1108                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1109                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1110                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1111                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1112                     INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U1113                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1114                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1115                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1116                     MUX2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.8620  
+U1117                     NAND4_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1118                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1119                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1120                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1121                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1122                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1123                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1124                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1125                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1126                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1127                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1128                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1129                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1130                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1131                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1132                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1133                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1134                     NOR3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1135                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1136                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1137                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1138                     NAND4_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1139                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1140                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1141                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1142                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1143                     OAI22_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1144                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1145                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1146                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1147                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1148                     MUX2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.8620  
+U1149                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1150                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1151                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1152                     AOI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1153                     INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U1154                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1155                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1156                     INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U1157                     MUX2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.8620  
+U1158                     HA_X1           NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            2.9260  r
+U1159                     AOI22_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1160                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1161                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1162                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1163                     NAND3_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1164                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1165                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1166                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1167                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1168                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1169                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1170                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1171                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1172                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1173                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1174                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1175                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1176                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1177                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1178                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1179                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1180                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1181                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1182                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1183                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1184                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1185                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1186                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1187                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1188                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1189                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1190                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1191                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1192                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1193                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1194                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1195                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1196                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1197                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1198                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1199                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1200                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1201                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1202                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1203                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1204                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1205                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1206                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1207                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1208                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1209                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1210                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1211                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1212                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1213                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1214                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1215                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1216                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1217                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1218                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1219                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1220                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1221                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1222                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1223                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1224                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1225                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1226                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1227                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1228                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1229                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1230                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1231                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1232                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1233                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1234                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1235                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1236                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1237                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1238                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1239                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1240                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1241                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1242                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1243                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1244                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1245                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1246                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1247                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1248                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1249                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1250                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1251                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1252                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1253                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1254                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1255                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1256                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1257                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1258                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1259                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1260                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1261                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1262                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1263                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1264                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1265                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1266                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1267                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1268                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1269                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1270                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1271                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1272                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1273                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1274                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1275                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1276                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1277                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1278                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1279                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1280                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1281                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1282                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1283                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1284                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1285                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1286                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1287                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1288                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1289                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1290                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1291                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1292                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1293                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1294                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1295                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1296                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1297                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1298                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1299                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1300                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1301                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1302                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1303                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1304                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1305                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1306                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1307                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1308                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1309                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1310                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1311                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1312                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1313                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1314                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1315                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1316                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1317                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1318                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1319                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1320                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1321                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1322                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1323                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1324                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1325                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1326                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1327                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1328                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1329                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1330                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1331                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1332                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1333                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1334                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1335                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1336                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1337                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1338                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1339                     OAI21_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U1340                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1341                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1342                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1343                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1344                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1345                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1346                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1347                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1348                     INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U1349                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1350                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1351                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1352                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1353                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1354                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1355                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1356                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1357                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1358                     NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1359                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1360                     XNOR2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U1361                     NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U1362                     NAND4_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1363                     NAND4_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U1364                     NOR3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+clk_r_REG0_S1             DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG1_S1             DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG2_S1             DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG3_S1             DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG4_S1             DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG5_S1             DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG6_S2             DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG7_S1             DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG8_S1             DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG9_S1             DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG10_S1            DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG11_S1            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG12_S1            DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG13_S1            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG14_S2            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG15_S3            DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG16_S4            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG17_S5            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG18_S5            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG19_S6            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG20_S7_IP         DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG21_S7            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG22_S8            DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG23_S9            DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG24_S7            DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG25_S8            DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG26_S8            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG27_S9            DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG28_S9            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG29_S10           DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG30_S10           DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG31_S10           DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG32_S10           DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG33_S10           DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG34_S9            DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG36_S7            DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG37_S7            DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG38_S7            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG39_S8            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG40_S8            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG41_S8            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG42_S8            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG43_S3            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG44_S6            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG45_S6            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG46_S1            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG47_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG48_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG49_S1            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG50_S6            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG51_S5            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG52_S4            DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG53_S1            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG54_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG55_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG56_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG57_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG58_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG59_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG60_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG61_S3            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG62_S3            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG63_S4            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG64_S1            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG65_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG66_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG67_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG68_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG69_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG70_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG71_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG72_S3            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG73_S3            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG74_S4            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG75_S1            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG76_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG77_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG78_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG79_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG80_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG81_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG82_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG83_S3            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG84_S3            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG85_S4            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG86_S1            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG87_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG88_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG89_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG90_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG91_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG92_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG93_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG94_S3            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG95_S3            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG96_S4            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG97_S1            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG98_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG99_S2            DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG100_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG101_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG102_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG103_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG104_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG105_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG106_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG107_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG108_S1           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG109_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG110_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG111_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG112_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG113_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG114_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG115_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG116_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG117_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG118_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG119_S1           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG120_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG121_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG122_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG123_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG124_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG125_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG126_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG127_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG128_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG129_S1           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG130_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG131_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG132_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG133_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG134_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG135_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG136_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG137_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG138_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG139_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG140_S1           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG141_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG142_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG143_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG144_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG145_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG146_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG147_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG148_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG149_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG150_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG151_S1           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG152_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG153_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG154_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG155_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG156_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG157_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG158_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG159_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG160_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG161_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG162_S1           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG163_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG164_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG165_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG166_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG167_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG168_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG169_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG170_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG171_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG172_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG173_S1           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG174_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG175_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG176_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG178_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG179_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG180_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG182_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG183_S1           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG184_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG185_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG186_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG187_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG188_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG189_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG190_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG191_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG192_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG193_S1           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG194_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG195_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG196_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG197_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG198_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG199_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG200_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG201_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG202_S4           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG203_S1           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG204_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG205_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG206_S1           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG207_S2           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG208_S3           DFF_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            4.7880  n
+clk_r_REG209_S1           DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG210_S1           DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG211_S1           DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG213_S1           DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG215_S1           DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG216_S1           DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+clk_r_REG217_S1_IP        DFFS_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+--------------------------------------------------------------------------------
+Total 1121 cells                                          2076.6620
+1

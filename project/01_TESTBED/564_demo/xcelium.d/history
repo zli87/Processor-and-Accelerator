@@ -1,0 +1,7 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(31Oct2021:00:36:24):( irun -timescale 1ns/1fs testbench_564.sv -debug -define RTL -define SEED=003624 -access +rwc -loadpli1 debpli:novas_pli_boot )
+s2::(31Oct2021:00:37:32):( irun -timescale 1ns/1fs testbench_564.sv -debug -define RTL -define SEED=003731 -access +rwc -loadpli1 debpli:novas_pli_boot )
+s3::(31Oct2021:00:43:24):( irun -timescale 1ns/1fs testbench_564.sv -debug -define RTL -define SEED=004323 -access +rwc -loadpli1 debpli:novas_pli_boot )
