@@ -40,29 +40,31 @@ Since 2015, binary neural networks have became popular because they require less
 
 # 0. **Directory structure**
 
-project/
-<br>|-- 00_Prototype/
-<br>|&emsp;|-- NN.h
-<br>|&emsp;|-- NN.cpp
-<br>|&emsp;\\-- NN_tb.cpp
-<br>|
-<br>|-- 01_TESTBED/
-<br>|&emsp;|-- testbench_564.sv
-<br>|&emsp;|-- input_0/ (input, weight, golden_output dat files)
-<br>|&emsp;\\-- input_1/ (input, weight, golden_output dat files)
-<br>|
-<br>|-- 02_RTL/
-<br>|&emsp;\\-- MyDesign.v
-<br>|
-<br>|-- 03_SYN/
-<br>|&emsp;|-- Makefile
-<br>|&emsp;|-- syn.tcl
-<br>|&emsp;|-- setup.tcl
-<br>|&emsp;|-- read.tcl
-<br>|&emsp;|-- Constraints.tcl
-<br>|&emsp;|-- CompileAnalyze.tcl
-<br>|&emsp;|-- area_total_cell_{clock_cycle}.txt
-<br>|&emsp;\\-- Report_{clock_cycle}_{date}/
+```
++project/
+    +--- 00_Prototype/
+    |   |--- NN.h
+    |   |--- NN.cpp
+    |   \--- NN_tb.cpp
+    |
+    +--- 01_TESTBED/
+    |   |--- testbench_564.sv
+    |   +--- input_0/ (input, weight, golden_output dat files)
+    |   +--- input_1/ (input, weight, golden_output dat files)
+    |
+    +--- 02_RTL/
+    |   \--- MyDesign.v
+    |
+    +--- 03_SYN/
+    |   |--- Makefile
+    |   |--- syn.tcl
+    |   |--- setup.tcl
+    |   |--- read.tcl
+    |   |--- Constraints.tcl
+    |   |--- CompileAnalyze.tcl
+    |   +--- Report_{clock_cycle}_{date}/
+    |   \--- area_total_cell_{clock_cycle}.txt
+```
 <div class="page"/>
 
 # 1. **Introduction**
