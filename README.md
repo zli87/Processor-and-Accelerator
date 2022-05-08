@@ -41,7 +41,7 @@ Since 2015, binary neural networks have became popular because they require less
 # 0. **Directory structure**
 
 ```
-+project/
+project/
     +--- 00_Prototype/
     |   |--- NN.h
     |   |--- NN.cpp
