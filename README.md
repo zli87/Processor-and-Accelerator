@@ -275,7 +275,7 @@ Graph 5. FSM block diagram.<br> Note: flag_w means write done.
 ## 4.2 Four Different Binary Convolution microarchitecture
 - microarchitecture 1: one 9-input big adder
 
-    ![algo1](./pic/algo1.png)
+    ![uarch1](./pic/uarch1.png)
     Graph 6. one 9-input big adder
 
     logic to compare if sum > 5:
@@ -290,7 +290,7 @@ Graph 5. FSM block diagram.<br> Note: flag_w means write done.
 
 - microarchitecture 2: two 4-input medium adders
 
-    ![algo2](./pic/algo2.png)
+    ![uarch2](./pic/uarch2.png)
 
     Graph 6. two 4-input medium adders
 
@@ -318,7 +318,7 @@ Graph 5. FSM block diagram.<br> Note: flag_w means write done.
 
 - microarchitecture 3: three 3-input full adders
 
-    ![algo3](./pic/algo3.png)
+    ![uarch3](./pic/uarch3.png)
 
     Graph 7. three 3-input full adders
 
@@ -350,7 +350,7 @@ Graph 5. FSM block diagram.<br> Note: flag_w means write done.
 
 - microarchitecture 4: four 2-input half adders
 
-    ![algo4](./pic/algo4.png)
+    ![uarch4](./pic/uarch4.png)
 
     Graph 8. four 2-input half adders
 
@@ -442,7 +442,7 @@ Graph 9. block diagram of the test environment
 
     In Table 5, microarchitecture 3, three full adders have the fastest critical path. Therefore I selected this microarchitecture and continued to synthesize and optimization.
 
-    |---|algo1|algo2|algo3|algo4|
+    |---|uarch1|uarch2|uarch3|uarch4|
     |---|---|---|---|---|
     |clock period(ns)|10|10|10|10|
     |Slack|5.64 | 6.25|6.29 |5.73 |
@@ -499,7 +499,7 @@ Graph 9. block diagram of the test environment
 
     The critical path is sensitive to clock period and affects cell area significantly. In this project, a critical path occurs at process element(PE) submodules. Therefore, microarchitecture decides the length of the critical path and how fast clock frequency our design can reach. 
 
-    |---|algo1|algo2|algo3|algo4|
+    |---|uarch1|uarch2|uarch3|uarch4|
     |---|---|---|---|---|
     |clock period(ns)|10|10|10|10|
     |Slack|5.64 | 6.25|6.29 |5.73 |
