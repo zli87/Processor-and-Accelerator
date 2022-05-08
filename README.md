@@ -508,7 +508,7 @@ Graph 9. block diagram of the test environment
 
 2. Optimizing Non-Critical Path:
 
-    However, non-critical paths don't have critical paths characteristic. I can't find a clear relation between non-critical paths and cell areas. For example, I tried two different coding styles in part of logic and remained all the rest. The two coding styles show as follows:
+    However, non-critical paths don't have critical path's characteristic. I can't find a clear relation between non-critical paths and cell areas. For example, I tried two different coding styles in part of logic and remained all the rest. The two coding styles show as follows:
     
     case 1. cell area: 1394
     ```
