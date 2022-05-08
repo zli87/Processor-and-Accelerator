@@ -2,7 +2,7 @@
 Department of Electrical and Computer Engineering
 <br><br>ECE 564: ASIC and FPGA Design with Verilog Fall 2021
 <br><br>Project: Binary Artificial Neural Network
-<br><br><br><br>by <br><br><br><br>Zong-Ru Li<br><br><br><br>Unity ID: zli87<br>Student ID: 200425490
+<br><br><br><br>by <br><br><br><br>Zong-Ru Li<br><br><br><br><br>
 </b></p>
 
 <br><br><br><br>
@@ -38,8 +38,35 @@ Since 2015, binary neural networks have became popular because they require less
 
 <div class="page"/>
 
+# 0. **Directory structure**
+
+project/
+<br>|-- 00_Prototype/
+<br>|&emsp;|-- NN.h
+<br>|&emsp;|-- NN.cpp
+<br>|&emsp;\\-- NN_tb.cpp
+<br>|
+<br>|-- 01_TESTBED/
+<br>|&emsp;|-- testbench_564.sv
+<br>|&emsp;|-- input_0/ (input, weight, golden_output dat files)
+<br>|&emsp;\\-- input_1/ (input, weight, golden_output dat files)
+<br>|
+<br>|-- 02_RTL/
+<br>|&emsp;\\-- MyDesign.v
+<br>|
+<br>|-- 03_SYN/
+<br>|&emsp;|-- Makefile
+<br>|&emsp;|-- syn.tcl
+<br>|&emsp;|-- setup.tcl
+<br>|&emsp;|-- read.tcl
+<br>|&emsp;|-- Constraints.tcl
+<br>|&emsp;|-- CompileAnalyze.tcl
+<br>|&emsp;|-- area_total_cell_{clock_cycle}.txt
+<br>|&emsp;\\-- Report_{clock_cycle}_{date}/
+<div class="page"/>
+
 # 1. **Introduction**
-- In this project, I implement a single stage of an all binary convolutional neural network. All the weights and input data are binary. They take on values of -1 and 1, which are represented by 0 and 1, respectively. My design reads the input matrix and weight matrix from two SRAMs, and it writes the output matrix to another SRAM. The size of the weight matrix is fixed at 3x3. Besides, the size of the input matrix has three options: 16x16, 12x12, 10x10.
+- In this project, I implement a single stage of an all binary convolutional neural network. All the weights and input data are binary. They take on values of -1 and 1, which are represented by 0 and 1, respectively. My design reads the input matrix and weight matrix from two SRAMs, and it writes the output matrix to another SRAM. The size of the weight matrix is fixed at 3x3. Besides, the size of the input matrix has three options: 16x16, 12x12, 10x10. Please refer to **project_spec.pdf** file for detail specification.
 
 - Compared with traditional 2-d convolution, binary convolution consume fewer resource and compute faster. 
 

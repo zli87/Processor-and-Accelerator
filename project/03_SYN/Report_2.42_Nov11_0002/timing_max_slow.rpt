@@ -1,0 +1,51 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Thu Nov 11 00:03:13 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: row1_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: R_54 (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  row1_reg[3]/CK (DFF_X2)                0.0000     0.0000 r
+  row1_reg[3]/Q (DFF_X2)                 0.4403     0.4403 r
+  U786/Z (XOR2_X1)                       0.5419     0.9822 r
+  U1203/ZN (INV_X4)                      0.0583     1.0406 f
+  U1205/ZN (XNOR2_X2)                    0.2593     1.2999 f
+  U1206/ZN (XNOR2_X2)                    0.2749     1.5749 f
+  U1207/ZN (NAND3_X2)                    0.1837     1.7586 r
+  U1210/ZN (NAND2_X1)                    0.0932     1.8518 f
+  U1212/ZN (AOI22_X2)                    0.2736     2.1254 r
+  R_54/D (DFF_X2)                        0.0000     2.1254 r
+  data arrival time                                 2.1254
+
+  clock clk (rise edge)                  2.4200     2.4200
+  clock network delay (ideal)            0.0000     2.4200
+  clock uncertainty                     -0.0500     2.3700
+  R_54/CK (DFF_X2)                       0.0000     2.3700 r
+  library setup time                    -0.2439     2.1261
+  data required time                                2.1261
+  -----------------------------------------------------------
+  data required time                                2.1261
+  data arrival time                                -2.1254
+  -----------------------------------------------------------
+  slack (MET)                                       0.0007
+
+
+1

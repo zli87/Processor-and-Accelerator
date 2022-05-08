@@ -1,0 +1,48 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Wed Nov 10 23:57:52 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: R_79 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: R_103 (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  R_79/CK (DFF_X1)                       0.0000     0.0000 r
+  R_79/Q (DFF_X1)                        0.6069     0.6069 f
+  U1287/Z (XOR2_X2)                      0.4004     1.0073 f
+  U1296/ZN (XNOR2_X2)                    0.2971     1.3044 f
+  U863/ZN (XNOR2_X1)                     0.2847     1.5891 f
+  U1070/ZN (NOR3_X1)                     0.3614     1.9505 r
+  U763/ZN (AOI21_X2)                     0.1381     2.0886 f
+  R_103/D (DFF_X1)                       0.0000     2.0886 f
+  data arrival time                                 2.0886
+
+  clock clk (rise edge)                  2.4800     2.4800
+  clock network delay (ideal)            0.0000     2.4800
+  clock uncertainty                     -0.0500     2.4300
+  R_103/CK (DFF_X1)                      0.0000     2.4300 r
+  library setup time                    -0.3408     2.0892
+  data required time                                2.0892
+  -----------------------------------------------------------
+  data required time                                2.0892
+  data arrival time                                -2.0886
+  -----------------------------------------------------------
+  slack (MET)                                       0.0006
+
+
+1

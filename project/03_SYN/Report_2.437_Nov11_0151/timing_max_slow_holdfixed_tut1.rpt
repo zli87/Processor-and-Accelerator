@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Thu Nov 11 01:51:29 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: R_78 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dut_sram_write_data_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  R_78/CK (DFF_X2)                                      0.0000     0.0000 r
+  R_78/Q (DFF_X2)                                       0.6443     0.6443 f
+  U1211/ZN (XNOR2_X2)                                   0.3153     0.9595 f
+  U1213/ZN (XNOR2_X2)                                   0.2644     1.2239 f
+  U1084/ZN (XNOR2_X2)                                   0.2789     1.5029 f
+  U1215/ZN (INV_X1)                                     0.1560     1.6588 r
+  U969/ZN (NAND2_X1)                                    0.0962     1.7550 f
+  U799/ZN (OAI211_X2)                                   0.2073     1.9623 r
+  U1034/ZN (NAND3_X2)                                   0.1152     2.0775 f
+  dut_sram_write_data_reg[0]/D (DFF_X2)                 0.0000     2.0775 f
+  data arrival time                                                2.0775
+
+  clock clk (rise edge)                                 2.4370     2.4370
+  clock network delay (ideal)                           0.0000     2.4370
+  clock uncertainty                                    -0.0500     2.3870
+  dut_sram_write_data_reg[0]/CK (DFF_X2)                0.0000     2.3870 r
+  library setup time                                   -0.3083     2.0787
+  data required time                                               2.0787
+  --------------------------------------------------------------------------
+  data required time                                               2.0787
+  data arrival time                                               -2.0775
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.0012
+
+
+1

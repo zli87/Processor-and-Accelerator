@@ -14,7 +14,7 @@ suppress_message  { OPT-106,LINT-1,LINT-28 }
 
 # setup name of the clock in your design.
 set clkname clk
-set CLK_PER 2.2
+set CLK_PER 2.432
 
 # set variable "modname" to the name of topmost module in design
 set modname MyDesign
@@ -199,7 +199,7 @@ link
 #---------------------------------------------------------
 # set compile_enhanced_resource_sharing true
 
- set_optimize_registers true
+# set_optimize_registers true
 # set_dp_smartgen_options  -all_options true
  compile_ultra -retime
 # compile_ultra

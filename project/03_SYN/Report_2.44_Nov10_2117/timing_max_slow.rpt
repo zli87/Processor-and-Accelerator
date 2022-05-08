@@ -1,0 +1,53 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Wed Nov 10 21:18:24 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: clk_r_REG17_S3
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: clk_r_REG29_S4
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  clk_r_REG17_S3/CK (DFFS_X2)            0.0000     0.0000 r
+  clk_r_REG17_S3/Q (DFFS_X2)             0.6749     0.6749 f
+  U550/ZN (NAND2_X2)                     0.1402     0.8151 r
+  U952/ZN (XNOR2_X1)                     0.2959     1.1111 r
+  U958/ZN (NAND3_X1)                     0.1366     1.2476 f
+  U515/ZN (NAND2_X2)                     0.1462     1.3938 r
+  U834/ZN (NAND2_X1)                     0.1122     1.5060 f
+  U1063/ZN (OR2_X1)                      0.2451     1.7511 f
+  U1064/ZN (OR3_X1)                      0.2459     1.9970 f
+  U496/ZN (NAND2_X1)                     0.1242     2.1212 r
+  clk_r_REG29_S4/D (DFFR_X1)             0.0000     2.1212 r
+  data arrival time                                 2.1212
+
+  clock clk (rise edge)                  2.4400     2.4400
+  clock network delay (ideal)            0.0000     2.4400
+  clock uncertainty                     -0.0500     2.3900
+  clk_r_REG29_S4/CK (DFFR_X1)            0.0000     2.3900 r
+  library setup time                    -0.2673     2.1227
+  data required time                                2.1227
+  -----------------------------------------------------------
+  data required time                                2.1227
+  data arrival time                                -2.1212
+  -----------------------------------------------------------
+  slack (MET)                                       0.0015
+
+
+1

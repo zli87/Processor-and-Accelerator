@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Tue Nov  9 04:42:35 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: R_3 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: R_40 (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  R_3/CK (DFFR_X1)                       0.0000     0.0000 r
+  R_3/Q (DFFR_X1)                        0.7289     0.7289 f
+  U690/ZN (XNOR2_X1)                     0.2901     1.0190 f
+  U812/ZN (INV_X1)                       0.1117     1.1307 r
+  U1139/ZN (AOI21_X1)                    0.0752     1.2059 f
+  U811/ZN (AOI21_X1)                     0.4902     1.6961 r
+  U1082/ZN (AND3_X1)                     0.2845     1.9807 r
+  U1197/ZN (AOI21_X1)                    0.0843     2.0649 f
+  R_40/D (DFF_X1)                        0.0000     2.0649 f
+  data arrival time                                 2.0649
+
+  clock clk (rise edge)                  2.4400     2.4400
+  clock network delay (ideal)            0.0000     2.4400
+  clock uncertainty                     -0.0500     2.3900
+  R_40/CK (DFF_X1)                       0.0000     2.3900 r
+  library setup time                    -0.3237     2.0663
+  data required time                                2.0663
+  -----------------------------------------------------------
+  data required time                                2.0663
+  data arrival time                                -2.0649
+  -----------------------------------------------------------
+  slack (MET)                                       0.0014
+
+
+1

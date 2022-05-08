@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Tue Nov  9 06:26:17 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: weight_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: R_18 (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  weight_reg[6]/CK (DFFR_X2)             0.0000     0.0000 r
+  weight_reg[6]/QN (DFFR_X2)             0.4121     0.4121 f
+  U705/ZN (INV_X8)                       0.1781     0.5902 r
+  U667/ZN (XNOR2_X2)                     0.3198     0.9100 r
+  U666/ZN (XNOR2_X2)                     0.3365     1.2465 r
+  U832/ZN (XNOR2_X2)                     0.2949     1.5414 r
+  U693/ZN (NOR2_X1)                      0.1043     1.6457 f
+  U759/ZN (NAND2_X1)                     0.1310     1.7767 r
+  U944/ZN (NAND2_X2)                     0.0819     1.8586 f
+  U943/ZN (NAND2_X2)                     0.0836     1.9422 r
+  U955/ZN (NAND2_X2)                     0.0586     2.0008 f
+  R_18/D (DFF_X2)                        0.0000     2.0008 f
+  data arrival time                                 2.0008
+
+  clock clk (rise edge)                  2.2300     2.2300
+  clock network delay (ideal)            0.0000     2.2300
+  clock uncertainty                     -0.0500     2.1800
+  R_18/CK (DFF_X2)                       0.0000     2.1800 r
+  library setup time                    -0.2977     1.8823
+  data required time                                1.8823
+  -----------------------------------------------------------
+  data required time                                1.8823
+  data arrival time                                -2.0008
+  -----------------------------------------------------------
+  slack (VIOLATED)                                 -0.1185
+
+
+1

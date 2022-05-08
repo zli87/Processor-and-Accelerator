@@ -1,0 +1,47 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Thu Nov 11 01:58:15 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: R_124 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: R_109 (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  R_124/CK (DFF_X2)                      0.0000     0.0000 r
+  R_124/Q (DFF_X2)                       0.6899     0.6899 f
+  U824/ZN (XNOR2_X1)                     0.4256     1.1155 r
+  U822/ZN (XNOR2_X1)                     0.3988     1.5143 r
+  U821/ZN (XNOR2_X1)                     0.3763     1.8906 r
+  U1224/ZN (NAND3_X1)                    0.1423     2.0329 f
+  U1226/ZN (NAND2_X1)                    0.1503     2.1832 r
+  R_109/D (DFF_X2)                       0.0000     2.1832 r
+  data arrival time                                 2.1832
+
+  clock clk (rise edge)                  2.4380     2.4380
+  clock network delay (ideal)            0.0000     2.4380
+  clock uncertainty                     -0.0500     2.3880
+  R_109/CK (DFF_X2)                      0.0000     2.3880 r
+  library setup time                    -0.2046     2.1834
+  data required time                                2.1834
+  -----------------------------------------------------------
+  data required time                                2.1834
+  data arrival time                                -2.1832
+  -----------------------------------------------------------
+  slack (MET)                                       0.0002
+
+
+1

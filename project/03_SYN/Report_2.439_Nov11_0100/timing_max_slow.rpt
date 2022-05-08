@@ -1,0 +1,54 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Thu Nov 11 01:00:24 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: row2_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dut_sram_write_data_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  row2_reg[3]/CK (DFF_X1)                               0.0000     0.0000 r
+  row2_reg[3]/Q (DFF_X1)                                0.5901     0.5901 r
+  U1212/ZN (XNOR2_X2)                                   0.3657     0.9558 r
+  U1214/ZN (XNOR2_X2)                                   0.3183     1.2741 r
+  U1215/ZN (XNOR2_X2)                                   0.3324     1.6065 r
+  U1216/ZN (INV_X4)                                     0.0492     1.6557 f
+  U1223/ZN (NAND4_X2)                                   0.2115     1.8672 r
+  U1226/ZN (NAND2_X2)                                   0.0740     1.9412 f
+  U1227/ZN (NAND2_X2)                                   0.1235     2.0646 r
+  U1228/ZN (NAND2_X2)                                   0.0591     2.1238 f
+  U1229/ZN (NAND2_X2)                                   0.0805     2.2043 r
+  dut_sram_write_data_reg[3]/D (DFF_X2)                 0.0000     2.2043 r
+  data arrival time                                                2.2043
+
+  clock clk (rise edge)                                 2.4390     2.4390
+  clock network delay (ideal)                           0.0000     2.4390
+  clock uncertainty                                    -0.0500     2.3890
+  dut_sram_write_data_reg[3]/CK (DFF_X2)                0.0000     2.3890 r
+  library setup time                                   -0.1846     2.2044
+  data required time                                               2.2044
+  --------------------------------------------------------------------------
+  data required time                                               2.2044
+  data arrival time                                               -2.2043
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.0001
+
+
+1

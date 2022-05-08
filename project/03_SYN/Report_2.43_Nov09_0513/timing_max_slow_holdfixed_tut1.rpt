@@ -1,0 +1,56 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Tue Nov  9 05:13:53 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: R_4 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cnt_w_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  R_4/CK (DFFR_X2)                       0.0000     0.0000 r
+  R_4/Q (DFFR_X2)                        0.7174     0.7174 f
+  U696/ZN (NAND2_X2)                     0.0921     0.8095 r
+  U486/ZN (INV_X1)                       0.0525     0.8620 f
+  U695/ZN (NAND2_X2)                     0.1205     0.9825 r
+  U582/ZN (INV_X2)                       0.0445     1.0270 f
+  U1190/ZN (NAND2_X2)                    0.0826     1.1096 r
+  U1188/ZN (NAND3_X2)                    0.0938     1.2034 f
+  U557/ZN (NAND2_X2)                     0.1181     1.3215 r
+  U514/ZN (NAND2_X1)                     0.1171     1.4386 f
+  U1225/ZN (NOR2_X2)                     0.1245     1.5631 r
+  U544/ZN (INV_X2)                       0.0455     1.6086 f
+  U1228/ZN (NAND3_X2)                    0.1323     1.7409 r
+  U495/ZN (INV_X1)                       0.0584     1.7994 f
+  U501/ZN (OAI22_X1)                     0.2154     2.0147 r
+  cnt_w_reg[3]/D (DFFR_X1)               0.0000     2.0147 r
+  data arrival time                                 2.0147
+
+  clock clk (rise edge)                  2.4300     2.4300
+  clock network delay (ideal)            0.0000     2.4300
+  clock uncertainty                     -0.0500     2.3800
+  cnt_w_reg[3]/CK (DFFR_X1)              0.0000     2.3800 r
+  library setup time                    -0.3647     2.0153
+  data required time                                2.0153
+  -----------------------------------------------------------
+  data required time                                2.0153
+  data arrival time                                -2.0147
+  -----------------------------------------------------------
+  slack (MET)                                       0.0006
+
+
+1

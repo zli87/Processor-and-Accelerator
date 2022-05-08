@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Tue Nov  9 03:33:39 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: row1_reg[14]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: R_140 (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  row1_reg[14]/CK (DFF_X1)               0.0000     0.0000 r
+  row1_reg[14]/Q (DFF_X1)                0.5979     0.5979 f
+  U665/ZN (XNOR2_X1)                     0.4071     1.0049 r
+  U531/ZN (XNOR2_X1)                     0.3988     1.4037 r
+  U1208/ZN (XNOR2_X1)                    0.3571     1.7609 r
+  U1213/ZN (NAND3_X1)                    0.1256     1.8865 f
+  U1046/ZN (OAI21_X1)                    0.2424     2.1289 r
+  R_140/D (DFF_X1)                       0.0000     2.1289 r
+  data arrival time                                 2.1289
+
+  clock clk (rise edge)                  2.4200     2.4200
+  clock network delay (ideal)            0.0000     2.4200
+  clock uncertainty                     -0.0500     2.3700
+  R_140/CK (DFF_X1)                      0.0000     2.3700 r
+  library setup time                    -0.2409     2.1291
+  data required time                                2.1291
+  -----------------------------------------------------------
+  data required time                                2.1291
+  data arrival time                                -2.1289
+  -----------------------------------------------------------
+  slack (MET)                                       0.0002
+
+
+1

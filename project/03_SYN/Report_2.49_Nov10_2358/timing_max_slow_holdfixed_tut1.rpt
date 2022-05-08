@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Wed Nov 10 23:58:18 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: R_70 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dim_reg[1] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  R_70/CK (DFFR_X1)                      0.0000     0.0000 r
+  R_70/Q (DFFR_X1)                       0.6785     0.6785 f
+  U840/ZN (NAND2_X1)                     0.1567     0.8352 r
+  U507/ZN (NOR2_X1)                      0.0838     0.9189 f
+  U720/ZN (NAND2_X2)                     0.0864     1.0054 r
+  U719/ZN (NAND2_X2)                     0.0770     1.0824 f
+  U737/ZN (NAND2_X2)                     0.1421     1.2245 r
+  U850/Z (MUX2_X1)                       0.7707     1.9952 f
+  dim_reg[1]/D (DFFR_X1)                 0.0000     1.9952 f
+  data arrival time                                 1.9952
+
+  clock clk (rise edge)                  2.4900     2.4900
+  clock network delay (ideal)            0.0000     2.4900
+  clock uncertainty                     -0.0500     2.4400
+  dim_reg[1]/CK (DFFR_X1)                0.0000     2.4400 r
+  library setup time                    -0.4426     1.9974
+  data required time                                1.9974
+  -----------------------------------------------------------
+  data required time                                1.9974
+  data arrival time                                -1.9952
+  -----------------------------------------------------------
+  slack (MET)                                       0.0022
+
+
+1
