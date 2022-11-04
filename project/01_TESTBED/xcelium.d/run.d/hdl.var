@@ -1,8 +1,0 @@
-define XMSIMRC	( /afs/eos/dist/cadence_apps/XCELIUM2009/tools/xcelium/files/xmsimrc, ~/.xmsimrc )
-define AMSRC	( /afs/eos/dist/cadence_apps/XCELIUM2009/tools/xcelium/files/amsrc, ~/.amsrc )
-include ./hdlrun.var
-define SNAPSHOT worklib.tb_top:sv
-DEFINE RUNMODEDEFAULT 1
-DEFINE LIB_MAP ( + => worklib )
-define ELAB_SNAPSHOT
-define SNAPSHOT worklib.tb_top:sv

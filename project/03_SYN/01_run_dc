@@ -1,4 +1,0 @@
-dc_shell -f syn.tcl -64bit -output_log_file dc_shell.log
-python findError.py dc_shell.log
-cat output_errors.txt
-cat output_warnings.txt

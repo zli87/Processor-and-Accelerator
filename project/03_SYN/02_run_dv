@@ -1,4 +1,0 @@
-design_vision -no_gui -f syn.tcl -64bit -output_log_file design_vision.log
-python findError.py design_vision.log
-cat output_errors.txt
-cat output_warnings.txt
