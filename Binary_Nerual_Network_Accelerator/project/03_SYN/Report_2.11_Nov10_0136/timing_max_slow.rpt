@@ -1,0 +1,51 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Wed Nov 10 01:36:58 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: clk_r_REG171_S1
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: clk_r_REG121_S2
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  clk_r_REG171_S1/CK (DFFR_X2)           0.0000     0.0000 r
+  clk_r_REG171_S1/Q (DFFR_X2)            0.6928     0.6928 f
+  U1057/ZN (XNOR2_X2)                    0.2135     0.9063 r
+  U1055/ZN (XNOR2_X2)                    0.3129     1.2192 r
+  U948/ZN (XNOR2_X2)                     0.3140     1.5332 r
+  U947/ZN (INV_X2)                       0.0566     1.5898 f
+  U945/ZN (NAND3_X2)                     0.1610     1.7508 r
+  U580/ZN (INV_X2)                       0.0517     1.8025 f
+  clk_r_REG121_S2/D (DFF_X1)             0.0000     1.8025 f
+  data arrival time                                 1.8025
+
+  clock clk (rise edge)                  2.1100     2.1100
+  clock network delay (ideal)            0.0000     2.1100
+  clock uncertainty                     -0.0500     2.0600
+  clk_r_REG121_S2/CK (DFF_X1)            0.0000     2.0600 r
+  library setup time                    -0.3082     1.7518
+  data required time                                1.7518
+  -----------------------------------------------------------
+  data required time                                1.7518
+  data arrival time                                -1.8025
+  -----------------------------------------------------------
+  slack (VIOLATED)                                 -0.0507
+
+
+1

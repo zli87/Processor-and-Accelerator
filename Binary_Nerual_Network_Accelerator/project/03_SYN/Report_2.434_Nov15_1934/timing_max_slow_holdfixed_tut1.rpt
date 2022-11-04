@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: R-2020.09
+Date   : Mon Nov 15 19:34:24 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: row1_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: R_67 (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  row1_reg[1]/CK (DFF_X1)                0.0000     0.0000 r
+  row1_reg[1]/Q (DFF_X1)                 0.5825     0.5825 f
+  U812/ZN (XNOR2_X1)                     0.3300     0.9126 r
+  U811/ZN (XNOR2_X1)                     0.4322     1.3448 r
+  U1395/ZN (XNOR2_X1)                    0.3973     1.7421 r
+  U1405/ZN (NAND2_X1)                    0.1069     1.8490 f
+  U1406/ZN (OAI211_X1)                   0.2703     2.1193 r
+  R_67/D (DFF_X2)                        0.0000     2.1193 r
+  data arrival time                                 2.1193
+
+  clock clk (rise edge)                  2.4340     2.4340
+  clock network delay (ideal)            0.0000     2.4340
+  clock uncertainty                     -0.0500     2.3840
+  R_67/CK (DFF_X2)                       0.0000     2.3840 r
+  library setup time                    -0.2637     2.1203
+  data required time                                2.1203
+  -----------------------------------------------------------
+  data required time                                2.1203
+  data arrival time                                -2.1193
+  -----------------------------------------------------------
+  slack (MET)                                       0.0010
+
+
+1

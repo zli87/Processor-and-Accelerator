@@ -1,0 +1,45 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Tue Nov  9 06:20:59 2021
+****************************************
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_fast_nldm
+Wire Load Model Mode: top
+
+  Startpoint: row2_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: row1_reg[5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  row2_reg[5]/CK (SDFF_X1)               0.0000     0.0000 r
+  row2_reg[5]/Q (SDFF_X1)                0.0666     0.0666 f
+  row1_reg[5]/D (DFF_X1)                 0.0000     0.0666 f
+  data arrival time                                 0.0666
+
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  clock uncertainty                      0.0500     0.0500
+  row1_reg[5]/CK (DFF_X1)                0.0000     0.0500 r
+  library hold time                     -0.0010     0.0490
+  data required time                                0.0490
+  -----------------------------------------------------------
+  data required time                                0.0490
+  data arrival time                                -0.0666
+  -----------------------------------------------------------
+  slack (MET)                                       0.0176
+
+
+1

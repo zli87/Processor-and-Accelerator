@@ -1,0 +1,4 @@
+#!/bin/csh
+set DATE=`date +%H%M%S`
+irun -timescale 1ns/1fs testbench_564.sv -debug -define RTL -define SEED=$DATE -access +rwc -loadpli1 debpli:novas_pli_boot
+#ncprotect TTT.v -outname FFF.v 
